@@ -1,0 +1,30 @@
+{
+  "FirstName":"Eswar Reddi",
+  "age": "32",
+  "dob" : "12-07-1992",
+  "address":[
+       
+    {
+        "Type": "perment",
+        "doorNo": "2/35" ,
+        "StreetName" : "ns peta"
+    },
+
+     {
+        "Type": "Tempory",
+        "doorNo": "2/37" ,
+        "StreetName" : "N peta"
+    }
+
+
+  ],
+   
+    "skills" : {
+
+        "OS" :"Linux",
+        "IDE" : "visucal_Code"
+
+
+    }
+
+}

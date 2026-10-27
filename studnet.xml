@@ -1,0 +1,10 @@
+<studnet>  
+       <firstname>Eswar</firstname>
+       <lastname>prasad</lastname>
+       <dob>12-07-1992</dob>
+       <address>
+            <doorNo>2/35</doorNo>
+            <streentName>Ns peta</streentName>
+            <location>bangalore</location>
+        </address>
+</studnet>

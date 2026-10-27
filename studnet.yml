@@ -1,0 +1,36 @@
+- FirstName : "Eswar"
+  LastName : "Prasad"
+  DOB : "12/07/1992"
+
+  # - for the list 
+
+  address :
+  - type : perment
+    doorNO : 1-56
+    streetname: ns peta 
+  
+   - type : tempory
+    doorNO : 1-56
+    streetname: ns peta 
+  skills:
+   OS : linux
+   IDE:visual code
+  
+
+- FirstName : "Eswar"
+  LastName : "Prasad"
+  DOB : "12/07/1992"
+
+  # - for the list 
+
+  address :
+  - type : perment
+    doorNO : 1-56
+    streetname: ns peta 
+  
+   - type : tempory
+    doorNO : 1-56
+    streetname: ns peta 
+  skills:
+   OS : linux
+   IDE:visual code

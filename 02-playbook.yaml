@@ -3,7 +3,7 @@
   connection: local
   tasks:
    - name: print hello world
-     ansible.builtlin.debug: 
-     # shellscript echo === ansible ...> ansible.buitlin.debug:
+     ansible.builtin.debug:
+     # shellscript echo === ansible ...>
       msg: "hello ansible....."
 

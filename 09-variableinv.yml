@@ -1,0 +1,6 @@
+- name: variable from course file
+  hosts: frontend
+  tasks:
+  - name: print the var from file
+    debug:
+     msg: "hi I am learing the course {{course}} from {{triner}}"

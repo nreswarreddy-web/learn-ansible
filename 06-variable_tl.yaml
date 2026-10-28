@@ -1,0 +1,16 @@
+- name: demo on task level variable
+  hosts: local 
+  connection: local
+  vars:
+   carpirce: 15L
+
+  tasks:
+  - name: print the vars
+    debug: 
+     msg: " Hi i am purchasing new car and price is {{carpirce}}"
+
+  - name: print the vars again 
+    vars:
+     bikeprice: 2l
+     debug:
+      msg:" hi my frined purchased a bike and bike price is {{bikeprice}}"

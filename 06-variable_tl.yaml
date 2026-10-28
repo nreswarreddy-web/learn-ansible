@@ -2,7 +2,7 @@
   hosts: local 
   connection: local
   vars:
-   carpirce: 15L
+    carpirce: 15L
 
   tasks:
   - name: print the vars
@@ -12,5 +12,5 @@
   - name: print the vars again 
     vars:
      bikeprice: 2l
-     debug:
-      msg:" hi my frined purchased a bike and bike price is {{bikeprice}}"
+    debug:
+      msg: " hi my frined purchased a bike and bike price is {{bikeprice}}"

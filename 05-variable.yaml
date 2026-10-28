@@ -5,8 +5,9 @@
    course: "ansible"
    triner: eswar reddi
    duration: 10 hrs
+   session: 15
 
   tasks:
   - name: print the vars
     debug: 
-     msg: " Hi i am learning {{course}} from {{triner}}, duration is {{10 hrs}} "
+     msg: " Hi i am learning {{course}} from {{triner}}, duration is {{duration}} and session number is {{session}} "

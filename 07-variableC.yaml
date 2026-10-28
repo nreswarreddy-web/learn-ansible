@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars_files:
-  - course
+  - course.yaml
   tasks:
   - name: print the var from file
     debug:

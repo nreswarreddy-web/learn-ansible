@@ -8,4 +8,8 @@
 
   - name: print the facts
     debug:
-     msg: "{{ansible_facts['os_family']}}"
+     msg: 
+      os_family: "{{ansible_facts['os_family']}}"
+      board_asset_tag: "{{ansible_facts['board_asset_tag']}}"
+
+    

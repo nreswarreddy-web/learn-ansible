@@ -1,6 +1,6 @@
-- name: create a user 
+- name: create a user
+  connection: local 
   hosts: local
-  connection: local
   become: yes 
   tasks:
   - name: create user 

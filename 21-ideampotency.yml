@@ -1,8 +1,9 @@
 - name: create a user
-  connection: local 
-  hosts: local
-  become: yes 
+  hosts: localhost
+  connection: local
+  become: yes
+
   tasks:
-  - name: create user 
-    user:
-     name: roboshop # user add roboshop
+    - name: create user
+      user:
+        name: roboshop

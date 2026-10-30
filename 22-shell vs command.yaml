@@ -12,8 +12,8 @@
      msg: "{{ec2_user_output}}"
   
   - name: get the files
-    command: ls -la > /tmp/files.txt
-    #shell: cat /etc/passwd | grep ec2-user
+    #command: ls -la > /tmp/files.txt
+    shell: ls -la > /tmp/files.txt
     register: files_output
 
   - name: find the output 
